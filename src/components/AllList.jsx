@@ -43,5 +43,3 @@ const AllList = () => {
 };
 
 export default AllList;
-
-//       <p>{list.DESCRIPTION}</p>
