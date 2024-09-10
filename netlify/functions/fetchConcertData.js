@@ -4,7 +4,7 @@ const axios = require('axios');
 exports.handler = async function (event, context) {
   try {
     const response = await axios.get(
-      `http://api.kcisa.kr/openapi/API_CCA_142/request?serviceKey=0aa6219f-c8de-491e-86be-4f9077f9ddd1&numOfRows=10&pageNo=1&infoTp=007`
+      `http://api.kcisa.kr/openapi/API_CCA_148/request?serviceKey=8fc2a397-2091-4a0d-abc9-20c0ab5c9dac&numOfRows=10&pageNo=1`
     );
 
     return {
